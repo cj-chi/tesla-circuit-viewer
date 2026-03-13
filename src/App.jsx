@@ -61,7 +61,7 @@ export default function App() {
           className={`tab-btn ${nav.activeTab === 'json' ? 'active' : ''}`}
           onClick={() => nav.setActiveTab('json')}
         >
-          </> JSON
+          {'</>'} JSON
         </button>
 
         <div className="filter-group">
